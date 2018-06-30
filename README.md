@@ -13,3 +13,5 @@
 ```
 go get gonum.org/v1/plot/...
 ```
+## 進捗の図
+![plot](https://github.com/mytheta/Pattern-recognition/blob/master/main/points.png)

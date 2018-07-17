@@ -45,7 +45,7 @@ func random(axis float64) float64 {
 ```
 
 そして，生成された学習データを以下に示す．  
-![sample](/Users/yutsukimiyashita/dev/src/Pattern-recognition/main/first.png)
+![sample](https://github.com/mytheta/Pattern-recognition/blob/master/main/first.png)
 
 ## 識別関数について
 識別関数 $g(x) = W^tX$　のコードを以下に示す．
@@ -97,7 +97,7 @@ $$
 ```
 図を以下に示す.  
 黄色の線が，初期の重みを表す．  
-![sample](/Users/yutsukimiyashita/dev/src/Pattern-recognition/main/weight.png)
+![sample](https://github.com/mytheta/Pattern-recognition/blob/master/main/weight.png)
 
 以下のコードで，パーセプトロンの学習規則を表す．  
 まず，class1を識別器にかけ，誤識別の場合，更新した重みと`-1`を返す．`fin`の変数で，`-1`を蓄積する．class2でも，同様に行う．  
@@ -168,7 +168,7 @@ lastBorder := plotter.NewFunction(func(x float64) float64 {
 })
 ```
 線形分離可能なデータ群に対する識別境界線の図を以下に示す．  
-![sample](/Users/yutsukimiyashita/dev/src/Pattern-recognition/main/points.png)
+![sample](https://github.com/mytheta/Pattern-recognition/blob/master/main/points.png)
 
 ## 重みの更新過程
 重みの更新過程を以下に示す．
